@@ -1,7 +1,10 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 int main() {
-    int x = 56;
-    cout << &x;
+    char ch;
+    while (cin.get(ch)) {
+        cout.put(ch);
+    }
 }

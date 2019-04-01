@@ -16,7 +16,7 @@ int main() {
                 strcpy(a[j-1], b);
             }
         }
-    }
+    } 
 
     for (i = 0; i < 4; i++) {
         puts(a[i]);

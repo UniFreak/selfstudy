@@ -1,5 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    printf("%d", 5 % 10);
+    char s[10] = "string", *ps = s;
+
+    scanf("%c", &ps[0]);
+    printf("%c", ps[0]);
+    printf("\n");
 }

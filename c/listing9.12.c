@@ -5,7 +5,7 @@ int main() {
     FILE *fp;
     int i, d[5];
 
-    if ((fp = fopen("listing9.12.dat", "w")) == NULL) {
+    if ((fp = fopen("listing9.12.dat", "wb")) == NULL) {
         printf("can not open file to write");
         exit(0);
     }
@@ -14,6 +14,6 @@ int main() {
         scanf("%d", &d[i]);
     }
 
-    fwrite(d, 10, sizeof(int), fp);
+    fwrite(d, sizeof(int), 5, fp);
     fclose(fp);
 }

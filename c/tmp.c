@@ -1,5 +1,7 @@
-#include <dos>
+#include <stdlib.h>
+
+struct date today;
 
 int main() {
-    getdate();
+    getdate(&today);
 }

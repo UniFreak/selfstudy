@@ -1,7 +1,6 @@
 #include <stdlib.h>
-
-struct date today;
+#include <stdio.h>
 
 int main() {
-    getdate(&today);
+    printf("%d\n", 10++);
 }
